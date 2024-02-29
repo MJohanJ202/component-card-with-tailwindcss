@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Cards</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="bg-body font-lato py-8">
+  <main class="grid place-content-center min-h-screen w-full px-4 bg-logo-patter bg-no-repeat bg-right-bottom bg-50%">
+    <article class="bg-white px-6 py-20 rounded-3xl relative shadow-borderCard w-full md:w-[28rem]">
+      <header>
+        <div class="absolute top-4 left-4">
+          <img src="/card-small-Logo.svg" alt="small logo" class="max-w-full">
+        </div>
+        <div class="rounded-full flex flex-col items-center">
+          <div class="w-40 rounded-full outline outline-2 outline-[#26235C] bg-ellipse-profile bg-w-full">
+            <img src="/profile-girl.jpg" alt="avatar profile girl" class="max-w-full block rounded-full">
+          </div>
+          <div class="mt-6 text-center">
+            <h3 class="text-4xl text-gray-700 font-bold break-words mb-2">Joeylene Rivera</h3>
+            <p class="text-xl text-[#26235C] font-normal tracking-wide break-words">Web Developer</p>
+          </div>
+        </div>
+      </header>
+      <div class="mt-7">
+        <p class="text-gray-700 text-base font-normal break-words text-center">
+          A kiddo who uses
+          <span class="text-gray-950 font-bold">Bootstrap</span>
+          and <span class="text-gray-950 font-bold">Laravel</span>
+          in web development. Currently playing around with design via
+          <span class="text-gray-950 font-bold">Figma</span>
+        </p>
+        <a href="/"
+          class="block text-lg font-normal break-words text-center bg-[#26235C] text-white mx-auto py-3 px-6 rounded-lg mt-8">
+          joeylenerivera@gmail.com
+        </a>
+      </div>
+      <footer class="mt-11">
+        <ul class="flex gap-6 items-center justify-center">
+          <li>
+            <a href="#" class="active:opacity-80 transition-all">
+              <img src="/icons/twitter.svg" alt="twitter icon">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active:opacity-80 transition-all">
+              <img src="/icons/instagram.svg" alt="instagram icon">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active:opacity-80 transition-all">
+              <img src="/icons/dribbble.svg" alt="dribbble icon">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active:opacity-80 transition-all">
+              <img src="/icons/linkedin.svg" alt="linkedin icon">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active:opacity-80 transition-all">
+              <img src="/icons/github.svg" alt="github icon">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active:opacity-80 transition-all">
+              <img src="/icons/dev.to.svg" alt="dev to social media icon">
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </article>
+  </main>
+</body>
+
+</html>
